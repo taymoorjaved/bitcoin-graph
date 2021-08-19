@@ -1,0 +1,34 @@
+/* For Date picker wrapper in BitcoinGraph */
+.DatePicker-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  justify-content: space-between;
+  margin: 40px auto;
+}
+
+/* For DatePicker input fields */
+input {
+  padding: 7px;
+  font-size: 16px;
+  text-align: center;
+  background: #216ba5;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+/* for render button */
+.Render-btn {
+  padding: 7px 78px;
+  background: red;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* For bitcoin graph wrapper  */
+.BtcGraph-wrapper {
+  width: 80%;
+  margin: auto;
+}
