@@ -34,6 +34,7 @@ const BitcoinGraph = () => {
             dateFormat='yyyy-MM-dd'
             selected={startDate}
             onChange={(date) => setStartDate(date)}
+            onCalendarClose={() => handleClick()}
           />
         </div>
         <div>
@@ -41,6 +42,7 @@ const BitcoinGraph = () => {
             dateFormat='yyyy-MM-dd'
             selected={endDate}
             onChange={(date) => setEndDate(date)}
+            onCalendarClose={() => handleClick()}
           />
         </div>
         <div>
